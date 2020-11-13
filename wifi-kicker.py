@@ -41,7 +41,7 @@ forced_params = False
 def root():
 	import os
 	if os.geteuid() != 0:
-		return True
+		return False
 	
 def run_ifwconf():
   try : 
