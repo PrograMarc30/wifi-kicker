@@ -179,8 +179,6 @@ def main():
 
 	
 
-  if not root():
-    exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'. Exiting.")
   if not run_ifwconf():
     exit("Something went wrong while executing ifconfig or iwconfig, subprocess unable to complete. exiting")
 
